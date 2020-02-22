@@ -1,0 +1,60 @@
+#site {
+  margin: 0 auto;
+  max-width: 1280px;
+  background-color: #bdc3c7;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.card {
+  margin: 15px;
+}
+
+.video {
+  margin: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .button {
+    width: 20%;
+    position: fixed;
+    right: 40%;
+  }
+  .flex-box {
+    display: inline-block;
+  }
+  .main-content {
+    margin: 0 auto;
+  }
+  .sidebar {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

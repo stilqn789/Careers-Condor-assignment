@@ -1,0 +1,65 @@
+
+#site{
+    margin: 0 auto;
+    max-width: 1280px;
+    
+    background-color: #bdc3c7;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+
+
+.flex-box{
+    display: flex;
+   flex-direction: row;
+    
+}
+
+.main-content{
+    flex: 1;
+    
+    
+}
+
+.sidebar{
+    flex: 1;
+  
+}
+
+.card{
+    margin: 15px;
+  
+}
+
+.video{
+    margin: 15px;
+}
+
+@media only screen and (max-width: 768px){
+    .logo{
+        display: none;
+    }
+    .button{
+        width: 20%;
+        position: fixed;
+        right: 40%;
+
+    }
+    .flex-box{
+        display: inline-block;
+        
+    }
+    .main-content{
+        margin:0 auto;
+        
+    }
+
+    .sidebar{
+        margin: 0 auto;
+        
+    }
+   
+}
